@@ -1,0 +1,219 @@
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: tomato;
+    font-size: 38px;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-dark {
+    background-color: black;
+}
+.nav-link-active{
+    color: tomato;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    
+
+}
+
+.homeLink{
+    
+    color: tomato;
+}
+.cutom-home-link{
+    color: tomato;
+}
+
+.hero-image{
+    position: relative;
+}
+.hero-image img{
+    height: 400px;
+}
+.hero-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+    text-align: center;
+}
+.hero-sub-title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    max-width: 800px;
+    margin: 0;
+    line-height: 1.6;
+    
+   
+}
+.top-destinations, .team-leads{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.destinations{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.destination{
+    margin: 10px;
+    text-align: center;
+    
+}
+.destination img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.active1{
+    color: tomato;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 0.5rem;
+}
+.card{
+    width: 18rem;
+    height: auto;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+    
+
+.cutom-card{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.cutom-card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.testimonialcard-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 4px solid rgb(10, 131, 245);
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.blue-section{
+    
+    background-color: #022747;
+   background-position: 100%;
+}
+.text-orange{
+    color: #ff6b35;
+    font-family: 'Georgia', serif;
+}
+.text-white{
+    color: white;
+}
+.py-5{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.form-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+}
+.card-title1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 142, 221);
+    text-align: center;
+    font-weight: bold;
+}
+.card-sub-title2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: gray;
+}
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.more-content {
+    display: none;
+    color: #3a3a3a;
+}
+.more-link {
+    color: rgb(25, 176, 247);
+    cursor: pointer;
+}
+.dots {
+    color: #3a3a3a;
+}
+.card-owner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.footer-upper{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(8, 8, 63);
+    color: white;
+    padding: 20px 0;
+}
+.footer-upper a {
+    text-decoration: none;
+    color: white;
+}
+.footer-upper a:hover{
+    text-decoration: underline;
+}
+.footer-upper ul{
+    padding-left: 0;
+}
+.btn-primary {
+    color: rgb(238, 231, 232);
+}
+
+.footer-upper .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer-end {
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer-end .cotainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-end p {
+    margin: 0;
+}
